@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Raleway&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- header -->
+    <header id="header__inner">
+        <div class="container">
+            <nav class="main-nav">
+                <img src="img/logo.png" alt="" class="main-nav__logo">
+                <ul class="main-nav__items">
+                    <li> <a href="home.html"> Ana Sayfa</a></li>
+                    <li> <a href="projects.html">Ürünlerimiz</a></li>
+                    <li> <a href="contact.html" class="active">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="contact-a" class="text-center py-3">
+        <div class="container">
+            <h2 class="section-title"> Bizimle İletişimi Geçin</h2>
+            <div class="border-bottom"></div>
+            <p class="lead">Bilgi almak ve firmamız ile iletişime geçmek için bu formu doldurmanız gerekmektedir. Firma
+                çalışanlarımız kısa süre içerisinde iletişime geçecek.</p>
+
+            <form action="https://formspree.io/f/xdobvkog" method="POST">
+                <div class="form-fields">
+                    <input type="text" class="input name" name="İsim" id="İsim" placeholder="Adınız">
+                    <input type="text" class="input subject" name="Konu" id="Konu" placeholder="Konu">
+                    <input type="email" class="input email" name="Email" id="Email" placeholder="Mail Adresiniz">
+                    <input type="tel" name="Telefon" class="input phone" id="Telefon" placeholder="Telefon numaranız">
+                    <textarea name="Mesaj" class="input message" id="Mesaj" placeholder="Mesajınızı giriniz"></textarea>
+                    <button type="submit" class="btn-dark"> Gönder</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section id="contact-b" class="bg-primary py-4">
+        <div class="container">
+            <div class="contact-info">
+                <div>
+                    <i class="fas fa-envelope fa-2x"></i>
+                    <h3>Email</h3>
+                    <p>md.company@gmail.com</p>
+                </div>
+                <div>
+                    <i class="fas fa-phone fa-2x"></i>
+                    <h3>İletişim Numaramız</h3>
+                    <p>(530) 421 12 69</p>
+                </div>
+                <div>
+                    <i class="fas fa-address-card fa-2x"></i>
+                    <h3>Adres</h3>
+                    <p>İstanbul/TÜRKİYE</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer id="main-footer">
+        <div class="footer-content container">
+
+            <p> MD Company &copy; 2022-2028. Tüm Hakları Saklıdır.</p>
+
+
+            <div class="social">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
